@@ -198,15 +198,15 @@ nav {
 }
 
 .banner__card:nth-child(1) {
-  background-image: url("../food/assets/banner-1.jpg");
+  background-image: url("assets/banner-1.jpg");
 }
 
 .banner__card:nth-child(2) {
-  background-image: url("../food/assets/banner-2.webp");
+  background-image: url("assets/banner-2.webp");
 }
 
 .banner__card:nth-child(3) {
-  background-image: url("../food/assets/banner-3.webp");
+  background-image: url("assets/banner-3.webp");
 }
 
 .banner__card p {
