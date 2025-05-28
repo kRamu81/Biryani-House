@@ -306,106 +306,47 @@ nav {
   margin-bottom: 1rem;
 }
 
-.reservation {
-  position: relative;
-  isolation: isolate;
-}
-
-.reservation__container h3 {
-  font-size: 2rem;
-  font-weight: 500;
-  font-family: var(--header-font-2);
-  color: var(--text-dark);
-  text-align: center;
-}
-
-.reservation__container form {
-  max-width: 400px;
-  margin-inline: auto;
-  margin-top: 4rem;
-  display: grid;
-  gap: 1rem;
-}
-
-.reservation__container input {
-  padding: 0.75rem 1rem;
-  outline: none;
-  border: 1px solid var(--text-dark);
-  font-size: 1rem;
-  color: var(--text-dark);
-}
-
-.reservation__container input::placeholder {
-  color: var(--text-dark);
-}
-
-.reservation img {
-  display: none;
-}
-
 .footer {
   background-image: url("assets/footer-bg.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.footer__logo img {
-  max-width: 250px;
-}
-
-.footer__content {
-  margin-top: 2rem;
-  display: grid;
-  gap: 2rem;
-}
-
-.footer__content p {
-  font-weight: 5500;
-  color: var(--white);
-  line-height: 1.75rem;
-}
-
-.footer__links {
-  list-style: none;
-  display: grid;
-  gap: 1rem;
-}
-
-.footer__links li {
+  padding: 2rem 1rem;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 1rem;
-  font-weight: 500;
-  color: var(--white);
+  justify-content: center;
+  text-align: center;
 }
 
-.footer__links li span {
-  font-size: 1.25rem;
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .footer__socials {
-  margin-top: 2rem;
   display: flex;
-  align-items: center;
-  gap: 1rem;
+  gap: 1.2rem;
 }
 
 .footer__socials a {
   font-size: 1.5rem;
-  color: var(--white);
+  color: white;
+  transition: color 0.3s ease;
 }
 
 .footer__socials a:hover {
-  color: var(--secondary-color);
+  color: #d46a00; /* Optional hover effect */
 }
 
 .footer__bar {
-  padding: 1rem;
-  font-size: 0.9rem;
-  color: var(--white);
-  text-align: center;
+  font-size: 0.95rem;
+  color: white;
+  margin: 0;
 }
+
 
 @media (width > 540px) {
   .banner__container {
