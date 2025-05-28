@@ -260,10 +260,14 @@ nav {
 }
 
 .order__card img {
-  max-width: 250px;
+  width: 250px;
+  height: 200px; /* Fixed height */
+  object-fit: cover; /* Ensures uniform cropping */
+  display: block;
   margin-inline: auto;
   margin-bottom: 2rem;
   filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.3));
+  border-radius: 8px; /* Optional: for rounded corners */
 }
 
 .order__card h4 {
