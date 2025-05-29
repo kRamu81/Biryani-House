@@ -454,28 +454,7 @@ nav {
     text-align: left;
   }
 
-  .reservation__container form {
-    max-width: 600px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .reservation img {
-    display: flex;
-    position: absolute;
-    z-index: -1;
-  }
-
-  .reservation__bg-1 {
-    left: 0;
-    top: 0;
-    width: clamp(100px, 25vw, 350px);
-  }
-
-  .reservation__bg-2 {
-    right: 0;
-    bottom: 0;
-    width: clamp(100px, 20vw, 250px);
-  }
+  
 
   .footer__content {
     grid-template-columns: repeat(2, 1fr);
