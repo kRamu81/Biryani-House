@@ -6,3 +6,7 @@
 ## 🍛 Biryani House Landing Page
 
 Welcome to the Biryani House landing page website project. This responsive UI is built with HTML, CSS, and JavaScript, featuring menu toggling, scroll animations, and more.
+
+## 🔗 Live Preview
+
+👉 [Click here to visit the Biryani House website](https://kramu81.github.io/Biryani-House/)
